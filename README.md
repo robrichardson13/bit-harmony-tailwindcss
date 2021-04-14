@@ -1,1 +1,1 @@
-# bit-tailwind
+# bit-harmony-tailwindcss
