@@ -11,3 +11,8 @@
     ```sh
     bit start
     ```
+3. If you try to build or tag you will see an error
+
+    ```sh
+    bit build
+    ```
