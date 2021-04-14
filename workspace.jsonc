@@ -39,6 +39,7 @@
       },
       "peerDependencies": {
         "autoprefixer": "10.2.5",
+        "core-js": "3.10.1",
         "css-loader": "5.2.1",
         "mini-css-extract-plugin": "1.4.1",
         "postcss": "8.2.9",
@@ -61,10 +62,13 @@
    * new set of dependencies.
    **/
   "teambit.workspace/variants": {
-    "components/extensions": {
+    "{extensions/*}": {
       "teambit.harmony/aspect": {}
     },
-    "components/elements": {
+    "{styles/*}": {
+      "teambit.harmony/node": {}
+    },
+    "{elements/*}": {
       "robrichardson13.bit-harmony-tailwindcss/extensions/custom-react": {}
     }
   }

@@ -1,7 +1,6 @@
 importers:
   .:
     dependencies:
-      '@types/classnames': registry.npmjs.org/@types/classnames/2.2.11
       autoprefixer: registry.npmjs.org/autoprefixer/10.2.5_postcss@8.2.9
       classnames: registry.npmjs.org/classnames/2.2.6
       core-js: registry.npmjs.org/core-js/3.10.1
@@ -10,11 +9,12 @@ importers:
       postcss: registry.npmjs.org/postcss/8.2.9
       postcss-loader: registry.npmjs.org/postcss-loader/5.2.0_postcss@8.2.9+webpack@5.30.0
       react: registry.npmjs.org/react/16.13.1
-      react-dom: registry.npmjs.org/react-dom/17.0.2_react@16.13.1
+      react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
       tailwindcss: registry.npmjs.org/tailwindcss/2.1.1_0bca15301caac8bc71ea0ad94045571f
       webpack: registry.npmjs.org/webpack/5.30.0
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
+      '@types/classnames': registry.npmjs.org/@types/classnames/2.2.11
       '@types/jest': registry.npmjs.org/@types/jest/26.0.20
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/react': registry.npmjs.org/@types/react/16.14.5
@@ -26,13 +26,13 @@ importers:
       '@types/react': ^16.14.5
       autoprefixer: 10.2.5
       classnames: 2.2.6
-      core-js: ^3.10.1
+      core-js: 3.10.1
       css-loader: 5.2.1
       mini-css-extract-plugin: 1.4.1
       postcss: 8.2.9
       postcss-loader: 5.2.0
       react: 16.13.1
-      react-dom: ^17.0.2
+      react-dom: 16.13.1
       tailwindcss: 2.1.1
       webpack: 5.30.0
   components/elements/button:
@@ -146,7 +146,7 @@ packages:
       tarball: https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.6.tgz
     version: 1.2.6
   registry.npmjs.org/@types/classnames/2.2.11:
-    dev: false
+    dev: true
     name: '@types/classnames'
     resolution:
       integrity: sha512-2koNhpWm3DgWRp5tpkiJ8JGc1xTn2q0l+jUNUE7oMKXUf5NpI9AIdC4kbjGNFBdHtcxBD18LAksoudAVhFKCjw==
@@ -2268,22 +2268,23 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/randombytes/-/randombytes-2.1.0.tgz
     version: 2.1.0
-  registry.npmjs.org/react-dom/17.0.2_react@16.13.1:
+  registry.npmjs.org/react-dom/16.13.1_react@16.13.1:
     dependencies:
       loose-envify: registry.npmjs.org/loose-envify/1.4.0
       object-assign: registry.npmjs.org/object-assign/4.1.1
+      prop-types: registry.npmjs.org/prop-types/15.7.2
       react: registry.npmjs.org/react/16.13.1
-      scheduler: registry.npmjs.org/scheduler/0.20.2
+      scheduler: registry.npmjs.org/scheduler/0.19.1
     dev: false
-    id: registry.npmjs.org/react-dom/17.0.2
+    id: registry.npmjs.org/react-dom/16.13.1
     name: react-dom
     peerDependencies:
-      react: 17.0.2
+      react: ^16.13.1
     resolution:
-      integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
+      integrity: sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz
-    version: 17.0.2
+      tarball: https://registry.npmjs.org/react-dom/-/react-dom-16.13.1.tgz
+    version: 16.13.1
   registry.npmjs.org/react-is/16.13.1:
     dev: false
     name: react-is
@@ -2395,17 +2396,17 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz
     version: 5.2.1
-  registry.npmjs.org/scheduler/0.20.2:
+  registry.npmjs.org/scheduler/0.19.1:
     dependencies:
       loose-envify: registry.npmjs.org/loose-envify/1.4.0
       object-assign: registry.npmjs.org/object-assign/4.1.1
     dev: false
     name: scheduler
     resolution:
-      integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==
+      integrity: sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz
-    version: 0.20.2
+      tarball: https://registry.npmjs.org/scheduler/-/scheduler-0.19.1.tgz
+    version: 0.19.1
   registry.npmjs.org/schema-utils/3.0.0:
     dependencies:
       '@types/json-schema': registry.npmjs.org/@types/json-schema/7.0.7
