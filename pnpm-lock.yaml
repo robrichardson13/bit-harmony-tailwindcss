@@ -1,6 +1,7 @@
 importers:
   .:
     dependencies:
+      '@types/classnames': registry.npmjs.org/@types/classnames/2.2.11
       autoprefixer: registry.npmjs.org/autoprefixer/10.2.5_postcss@8.2.9
       classnames: registry.npmjs.org/classnames/2.2.6
       core-js: registry.npmjs.org/core-js/3.10.1
@@ -14,7 +15,6 @@ importers:
       webpack: registry.npmjs.org/webpack/5.30.0
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
-      '@types/classnames': registry.npmjs.org/@types/classnames/2.2.11
       '@types/jest': registry.npmjs.org/@types/jest/26.0.20
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/react': registry.npmjs.org/@types/react/16.14.5
@@ -146,7 +146,7 @@ packages:
       tarball: https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.6.tgz
     version: 1.2.6
   registry.npmjs.org/@types/classnames/2.2.11:
-    dev: true
+    dev: false
     name: '@types/classnames'
     resolution:
       integrity: sha512-2koNhpWm3DgWRp5tpkiJ8JGc1xTn2q0l+jUNUE7oMKXUf5NpI9AIdC4kbjGNFBdHtcxBD18LAksoudAVhFKCjw==
