@@ -12,6 +12,7 @@ importers:
       style-loader: registry.npmjs.org/style-loader/2.0.0_webpack@5.30.0
       tailwindcss: registry.npmjs.org/tailwindcss/2.1.1_0bca15301caac8bc71ea0ad94045571f
       webpack: registry.npmjs.org/webpack/5.30.0
+      webpack-shell-plugin: registry.npmjs.org/webpack-shell-plugin/0.5.0
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
       '@types/classnames': registry.npmjs.org/@types/classnames/2.2.11
@@ -35,6 +36,7 @@ importers:
       style-loader: 2.0.0
       tailwindcss: 2.1.1
       webpack: 5.30.0
+      webpack-shell-plugin: 0.5.0
   components/elements/button:
     specifiers: {}
   components/extensions/custom-react:
@@ -2667,6 +2669,14 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/watchpack/-/watchpack-2.1.1.tgz
     version: 2.1.1
+  registry.npmjs.org/webpack-shell-plugin/0.5.0:
+    dev: false
+    name: webpack-shell-plugin
+    resolution:
+      integrity: sha1-Kbih2A3erg3bEOcpZn9yhlPCx0I=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/webpack-shell-plugin/-/webpack-shell-plugin-0.5.0.tgz
+    version: 0.5.0
   registry.npmjs.org/webpack-sources/2.2.0:
     dependencies:
       source-list-map: registry.npmjs.org/source-list-map/2.0.1
